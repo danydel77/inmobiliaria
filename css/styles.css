@@ -300,7 +300,7 @@ h4 {
 /** Conctacto**/
 
 form{
-    margin: 40px 0;
+    margin: 40px;
 }
 
 form label, form legend{
@@ -320,8 +320,16 @@ form label, form legend{
     margin:20px 0;
 }
 
+fieldset {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+   
+}    
+
 .enviar{
-    width: 40%;
+    width: 25%;
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
@@ -337,6 +345,32 @@ form label, form legend{
     background: darkorange;
     transform: scale(1.2);
 }
+
+.noEnviar{
+    width: 25%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: rgb(255, 8, 0);
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.noEnviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
 
 table{
     margin: 40px 40px;
