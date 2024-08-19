@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raíces</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raíces">
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="galeria.html">Galería</a>
+                    <a href="publicate.html">Publicate</a>
+
+                </nav>
+            </div>         
+        </div> <!-- contenedor -->
+    </header>  
+
+    <main>
+        <div>
+            <section id="cards">
+                <h1 class="fw-300 centrar-texto">Tus Publicaciones</h1>
+                <div id="cards-container">
+                    <!--Aquí dentro se añadiran las cards nuevas -->
+                </div>
+
+                <div id="cards-form-container" >
+                    <h3 class="añadir">Añadir nueva Publicación</h3>
+                    <form id="card-form">
+                        <label for="card-title">Titulo:</label>
+                        <input type="text" id="card-title" name="card-title" required/>
+                        <br>
+                        <label for="card-description">Descripción:</label>
+                        <textarea cols="20" rows="5" id="card-description" name="card-description" required></textarea>
+
+                        <!--<label for="card-description">Descripción:</label>
+                        <input type="text" id="card-description" name="card-description" required />-->
+                        <br>
+                        <label for="card-image">Url de imagen:</label>
+                        <input type="url" name="card-image" id="card-image" placeholder="https://picsum.photos/200" />
+                        <br>
+                        <h4>Personifica el marco</h4>
+                        <label for="card-bg-color">Color de fondo</label>
+                        <input type="color" id="card-bg-color" name="card-bg-color" value="#ffffff" />
+                        <br>
+                        <label for="card-border-color">Color del borde</label>
+                        <input type="color" id="card-border-color" name="card-border-color" value="#000000"/>
+                        <br>
+                        <button type="submit">Añadir tarjeta</button>
+
+
+
+                    </form>
+                </div>
+
+
+
+
+
+
+
+
+
+            </section>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        
+    </main>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="galeria.html">Galería</a>
+                <a href="publicate.html">Publicate</a>
+            </nav>
+            <p class="copyright">Todos los derechos reservados 2024</p>
+         </div>
+    </footer>
+
+    <script src="script.js"></script> 
+
+</body>
+</html>
